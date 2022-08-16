@@ -1,0 +1,36 @@
+body{
+    background-color: #fff;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.navBox{
+    position: relative;
+    /* width:90%; */
+
+    height: 40px;
+    /* border: 2px solid black; */
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    color: #c4c4c4;
+    background-color: #f5f5f5;
+    font-size: 13px;
+    font: poppins;
+}
+.top{
+    color: orange !important;
+}
+.navItem{
+    display: flex;
+}
+.navItemLink{
+    color: #c4c4c4;
+}
+.navItemLink:hover{
+    color: red;
+}
