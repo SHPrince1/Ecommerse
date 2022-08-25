@@ -1,42 +1,41 @@
-import React from 'react'
-
+import React from "react";
+import "../../styles/navbar.css";
+import { GiStarFlag, GiStarAltar } from 'react-icons/gi';
 const Navbar = () => {
   return (
     <>
-     <nav>
-      <div>
-      <ul>
-        <li>Sell on Jumia</li>
-      </ul>
-      </div>
+      <nav className="navBox">
+        <div>
+          <ul>
+            <li ><a href="#" className="top"> <span><GiStarFlag fill="#0033fe"/></span> <span>Sell on Jumia</span></a></li>
+          </ul>
+        </div>
 
-<div>
+        <div className="navItem">
+          <ul>
+            <li><a href="#" className="navItemLink"> <span><GiStarFlag fill="#0033fe"/></span>JUMIA</a></li>
+          </ul>
+          <ul>
+            <li> <a href="#" className="navItemLink"> <span>< GiStarAltar fill="red"/></span>PARTY </a></li>
+          </ul>
+          <ul>
+            <li> <a href="#" className="navItemLink"> <span>IMG</span>FOOD </a> </li>
+          </ul>
 
+          <ul>
+            <li> <a href="#" className="navItemLink"><span>IMG</span>PARTY </a></li>
+          </ul>
 
-      <ul>
-        <li>Jumia</li>
-      </ul>
-      <ul>
-        <li>Pay</li>
-      </ul>
-      <ul>
-        <li>Food </li>
-      </ul>
-     
-      <ul>
-        <li>Party </li>
-      </ul>
-     
-      <ul>
-        <li>Prime </li>
-      </ul>
-      <ul>
-        <li>Logistics </li>
-      </ul>
-      </div>
-     </nav>
+          <ul>
+            <li><a href="#" className="navItemLink"> <span>IMG</span>PRIME </a></li>
+          </ul>
+          <ul>
+            <li> <a href="#" className="navItemLink"> <span>IMG</span>LOGISTICS</a> </li>
+          </ul>
+        </div>
+      </nav>
     </>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
