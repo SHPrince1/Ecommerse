@@ -9,12 +9,11 @@ li{
 }
 .navBox{
     position: relative;
-    /* width:90%; */
-
-    height: 40px;
+    height: 30px;
     /* border: 2px solid black; */
     display: flex;
     text-align: center;
+    align-items: center;
     justify-content: space-evenly;
     list-style-type: none;
     color: #c4c4c4;
@@ -27,6 +26,7 @@ li{
 }
 .navItem{
     display: flex;
+    width: 50%;
 }
 .navItemLink{
     color: #c4c4c4;
